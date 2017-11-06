@@ -42,7 +42,7 @@ make
 ```
 8. Update the firmware of the TERES-I's keyboard and touchpad firmware:
 ```bash
-./update
+sudo ./update
 ```
 You will be prompted to press "fn+Tux+ESC" (function + penguin + escape) keys simultanously at some point. Make sure to do so!
 
