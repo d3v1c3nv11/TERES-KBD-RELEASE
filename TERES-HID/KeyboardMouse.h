@@ -72,8 +72,8 @@
 #define HID_KEYBOARD_SC_LEFTMETA	0x7d 
 #define HID_KEYBOARD_SC_COMPOSE		0x7f
 
-#define HID_KEYBOARD_MODIFIER_LEFTSHIFT 0x02
-#define HID_KEYBOARD_MODIFIER_RIGHTSHIFT  0x20
+//#define HID_KEYBOARD_MODIFIER_LEFTSHIFT 0x02
+//#define HID_KEYBOARD_MODIFIER_RIGHTSHIFT  0x20
 
 
 /** Bootloader special address to start the user application */
