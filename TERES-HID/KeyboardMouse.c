@@ -59,6 +59,7 @@ static uint8_t PrevKeyboardHIDReportBuffer[sizeof(USB_KeyboardReport_Data_t)];
 static uint8_t PrevMouseHIDReportBuffer[sizeof(USB_WheelMouseReport_Data_t)];
 
 
+
 int limited(int value)
 {
 if (value < 0)
@@ -803,6 +804,7 @@ itsDone = true;
 		*ReportSize = sizeof(USB_WheelMouseReport_Data_t);
 		return true;
 	}
+
 }
 
 
