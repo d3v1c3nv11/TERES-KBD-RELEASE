@@ -17,9 +17,10 @@ git clone https://github.com/d3v1c3nv11/TERES-KBD-RELEASE.git
 
 cd TERES-KBD-RELEASE/
 ```
-4. Extract the archive inside "avrspace/TERES-KBD-RELEASE/" to directory lufa-LUFA-151115
+4. Download Dean Camera's LUFA USB stack from http://www.fourwalledcubicle.com/ 
+   Extract the archive inside "avrspace/TERES-KBD-RELEASE/" to directory lufa-LUFA-170418
 ```bash
-tar -xvf lufa-LUFA-151115.tar.gz
+unzip lufa-LUFA-170418.zip
 ```
 5. The Olimex keyboard + touchpad code is located in "avrspace/TERES-KBD-RELEASE/TERES-HID/", navigate there to edit the build depndencies:
 ```bash
@@ -29,9 +30,9 @@ cd TERES-HID/
 ```bash
 nano makefile
 ```
-search for LUFA_PATH and make sure it is as follows:
+search for LUFA_PATH and make sure it point to LUFA library:
 ```bash
-LUFA_PATH    = ../lufa-LUFA-151115/LUFA
+LUFA_PATH    = ../lufa-LUFA-170418/LUFA
 ```
 save file and exit nano
 
