@@ -36,10 +36,8 @@ LUFA_PATH    = ../lufa-LUFA-170418/LUFA
 ```
 save file and exit nano
 
-7. Make script and bootloader executable and Compile
+7. Compile
 ```bash
-chmod +x update
-chmod +x hid_bootloader_cli
 make
 ```
 8. Update the firmware of the TERES-I's keyboard and touchpad firmware:
