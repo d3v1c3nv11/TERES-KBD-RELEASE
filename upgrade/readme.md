@@ -18,3 +18,6 @@ Then press Fn+TuXkey+escape together to
 start the update.
 
 The firmware should now be updated.
+
+
+Note: You must add keyboard shortcut with name Suspend and command: "systemctl suspend" activated with key Fn+F1
