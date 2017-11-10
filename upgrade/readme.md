@@ -20,4 +20,14 @@ start the update.
 The firmware should now be updated.
 
 
-Note: You must add keyboard shortcut with name Suspend and command: "systemctl suspend" activated with key Fn+F1
+Note: To get Fn+F1 suspend mode working:
+
+1. Add
+```bash
+KEYBOARD_KEY_70071=suspend
+```
+at the end of file /etc/udev/hwdb.d/teres_kbd.hwdb
+
+2. You must create keyboard shortcut (System -> Preferences -> Hardware -> Keyboard Shortcuts -> Add) with name "Suspend" and command: "systemctl suspend" activated with key Fn+F1
+
+3. reboot...
