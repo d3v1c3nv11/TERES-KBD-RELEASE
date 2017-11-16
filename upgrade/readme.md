@@ -8,7 +8,11 @@ tar -xvf firmware.tar.gz
 navigate to the firmware folder and then perform an update with the following commands: 
 ```bash
 cd firmware 
-sudo ./update 
+sudo ./update    #standart firmware
+
+or
+
+sudo ./update-notap  #firmware with taps disabled
 ```
 Then follow the onscreen prompts: 
 
